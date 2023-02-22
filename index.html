@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Eduard Mititelu">
+        <script src="https://kit.fontawesome.com/7b3e02872f.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="icon" type="image/x-icon" href="./pngaaa.com-7002903.png">
+        <title>JavaScript to do list</title>
+    </head>
+    <body>
+        <div class="title-class">
+            <h1 class="title">JavaScript To Do List</h1>
+        </div>
+        <div class="principal-class">
+                <div>
+                    <div class="add-div-button">
+                        <label for="enter">
+                            <span>Add here a new task</span>
+                        </label>
+                    </div>
+                    <input id="enter" type="text">
+                    <button type="button" onclick="myFunction1()">Press to add</button>
+                    <p id="error-place"> </p>
+                </div>
+            </div>
+            <ol class="list" id="list"></ol>
+            <div class="principal-class">
+                <button id="clearAll" onclick="myFunction2()">Clear all</button>
+            </div>
+        </div>
+    </body>
+    <script src="./main.js"></script>
+</html>

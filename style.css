@@ -1,0 +1,27 @@
+body{               /*General styling of the body*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.title-class{
+    background:linear-gradient(to right, #4568dc, #b06ab3);
+    height: 80px;
+}
+.title{
+    margin: 0px;
+    text-align: center;
+    font-size: 50px;
+}
+.add-div-button{
+    display: inline-block;
+}
+.principal-class{
+    text-align: center;
+}
+.list{
+    text-align: center;
+}
+.listElement{
+    text-align: center;
+}
